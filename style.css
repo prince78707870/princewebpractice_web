@@ -1,0 +1,66 @@
+html{ scroll-behavior: smooth;}
+.move-up:hover{ margin-top: -10px; transition: 0.2s all ease-in; background-color: #15626A; color: white !important;}
+.cr{ color: orangered}
+*{ box-sizing: border-box;}
+#nav-top{ background-color: #2d7076; color: white;}
+#nav-middle{ background-color: #15626A;}
+#phone-number{ border: 2px solid white;}
+#phone-number:hover{ background-color: white; color: #15626A !important;}
+#social-icon i:hover{ color: rgb(255, 102, 0); cursor: pointer;}
+#nav-icon:hover{ color: rgb(255, 102, 0) !important; border-bottom: 2px solid rgb(255, 102, 0);}
+#menu-btn{ font-size: 2rem;}
+#slogan-top{ color: orangered; font-size: 1.6vmax; font-weight: 500;}
+#slogan-middle{ color: black; font-size: 3vmax; font-weight: 700; margin-top: -30px; line-height: 1.1;}
+#slogan-bottom{ font-weight: 500;}
+#hero-1{ box-shadow: 5px 0 30px #ccc;}
+#appointment-btn{ background-color: #1BC9B6; border-radius: 0; color: white; font-size: 1.5vmax;}
+#appointment-btn:hover{ background-color: orangered;}
+#about-info{ background-color: #cccccc48; padding-bottom: 40px;}
+#contact-info{ font-size: 1.2vmax; font-weight: 500; color: rgba(0, 0, 0, 0.711);}
+#contact-us-btn{ border: 3px solid #15626A; color: #15626A; font-size: 1.5vmax; font-weight: 500; border-radius: 0;}
+/* #contact-us-btn:hover{ background-color: #15626A; color: white;} */
+#p-year-exp{ font-size: 8vmax; font-weight: 700; color: #15626A;}
+#p-year-exp sup{ color: orangered; font-size: 6vmax; font-weight: 900;}
+#exp-heading{ font-size: 4vmin; font-weight: 600;}
+#service-index{ height: 50px; width: 50px; display: flex; justify-content: center; align-items: center; font-size: 30px; font-weight: 600; padding-top: 1rem; border-radius: 50%; background-color: orangered; color: white;}
+#service-card{ filter: grayscale(100%);}
+#service-card:hover{ filter: grayscale(0%); box-shadow: 0 8px 8px 0 #ccc; border-bottom: 5px solid orangered;}
+#service-card:hover img{ margin-top: -10px !important; transition: margin-top 0.3s ease-in-out;}
+#more-about-div{ background-color: #15626A;}
+.num-div{ background-color: white;}
+.num-div #num{ color: #15626A; font-size: 3vmax; font-weight: 700;}
+.num-div #count-heading{ margin-top: -10px; font-size: 1.4vmax; font-weight: 600;}
+.num-div:hover #num{ color: orangered;}
+#get-in-touch-btn{ border: 3px solid #15626A; border-radius: 0; color: #15626A; font-weight: 500; font-size: 1.5vmax;}
+#get-in-touch-div{ border-bottom: 0.3rem solid orangered;}
+#appointment-div{ background-color: #15626A;}
+#book-btn { color: white; background-color: #1BC9B6; border-radius: 0%; height: 50px; width: 250px; display: block; margin: 0 auto; transition: all 0.5s ease-in-out;}
+#book-btn:hover {transform: translateY(-10px); background-color: orangered;}
+#doctor-info-div a{ text-decoration: none; color: black; font-weight: 600;}
+#doctor-info-div i{ font-size: 1.7rem; padding: .5rem;}
+#info-card{ border: 1px solid #cccccc7b; box-shadow: 3px 3px 8px 0 #ccc; margin-bottom: 1rem;}
+#info-card:hover{ box-shadow: 5px 5px 10px 0 #ccc; margin-top: -10px; transition: 0.2s all ease-in-out;}
+#info-card:hover #dr-name{ color: orangered;}
+#info-card:hover #info-card-img{ filter: hue-rotate(0deg) saturate(200%) brightness(80%);}
+#info-card i:hover{ color: orangered;}
+#footer-div img { display: inline-block; transition: transform 0.3s ease-in-out;}
+#footer-div img:hover { transform: translateY(-10px);}
+#footer-div{ background-color: #0E5D64; padding-top: 7rem; border-radius: 40% 20% 0 0;}
+#footer-div u{ color: orangered;}
+#info p{ color: orangered; font-size: 1.3vmax; font-weight: 600;}
+#info ul li{ font-size: 1vmax; padding-bottom: 5px; color: rgba(0, 0, 0, 0.66); font-weight: 500;}
+#info ul li:hover{ color: orangered;}
+#contact i{ font-size: 1.5rem; margin: 1rem 0 0 1.2vmax; color: orangered;}
+#footer{ background-color: #0D5C63 !important; padding: 1rem; color: white; font-size: 1vmax;}
+#dentist-nav-div{ background-color: #15626A; border-radius: 0 0 50% 50%; padding-bottom: 5rem;}
+#dentist-nav-div h1{ font-weight: 1000; padding: 2rem 0 0 0;}
+#back-home{ text-decoration: none; color: white; padding: 0 .5rem 0 .5rem;}
+#back-home:hover{ color: orangered;}
+#done-icon{ color: #1BC8B5; font-size: 3rem;}
+#ceo-div{ background-color: #0E5D64;}
+#ceo-degree{ color: #02282c;}
+#misson-1{ background-color: #1BC8B5; border-radius: 30% 0 30% 0;}
+#misson-2{ background-color: #0E5053; border-radius: 30% 0 30% 0;}
+#accomplishments-div{ background-color: #0C5961;}
+#quiry-div{ background-color: #0E5D64;}
+#appliances-info-div{ background-color: #0E5D64;}
